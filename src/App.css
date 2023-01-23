@@ -10,7 +10,7 @@
   width: 23rem;
   margin: auto;
   padding: 0.5rem;
-  background-color: #222;
+  background-color: #282c34;
 }
 
 .display{
@@ -23,22 +23,26 @@
 
 .button{
   width: 7.3rem;
-  padding: 0.4rem;
-  background-color: #222;
+  padding: 1rem;
+  background-color: #333;
   border: solid white 2px;
   color: #fff;
 }
 
 .button1{
   width: 14.6rem;
-  padding: 0.4rem;
-  background-color: #222;
+  padding: 1rem;
+  background-color: #333;
   border: solid white 2px;
   color: #fff;
 }
 
+.button1:hover{
+  background-color: #222;
+}
+
 .button:hover{
- background-color:#5a0a75 ;
+ background-color:#222 ;
 }
 
 @media screen and (max-width:400px) {
