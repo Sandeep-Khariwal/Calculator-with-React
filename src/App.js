@@ -23,6 +23,7 @@ function App() {
 
   return (
     <div className="calc">
+      <marquee behavior="alternate"><h1>Made By :- <span>Sandeep Khariwal</span></h1></marquee>
       <div>
   
       <input type='text' placeholder='0' value={result} className='display' />
